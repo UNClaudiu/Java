@@ -18,8 +18,8 @@ public class Main {
      });
      listadecarti.stream()
              .filter(e -> e.getISBN().length()>10)
-             .map(a->a.getAuthor())
-             .toList();
+             .map(a->a.getAuthor());
+
 
 
     }
